@@ -1,0 +1,11 @@
+-r data_processing/requirements.txt
+torch>=2.4
+torchvision
+einops>=0.8
+transformers>=4.40,<5
+diffusers
+kornia
+tensorboard
+natsort
+imageio[ffmpeg]
+clip @ git+https://github.com/openai/CLIP.git
